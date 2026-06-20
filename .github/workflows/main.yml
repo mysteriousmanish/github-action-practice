@@ -3,6 +3,10 @@ on: [push,workflow_dispatch]
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./Third-workflow-with-sample-code
     steps:
       - name: Get code
         uses: actions/checkout@v3
