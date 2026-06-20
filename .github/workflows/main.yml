@@ -6,7 +6,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Third-workflow-with-sample-code
+        working-directory: Third-workflow-with-sample-code
     steps:
       - name: Get code
         uses: actions/checkout@v3
