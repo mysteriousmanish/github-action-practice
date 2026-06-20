@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
+      - name: Print multiple commands
+        run: |
+          echo "Manish"
+          echo "Malhotra"
